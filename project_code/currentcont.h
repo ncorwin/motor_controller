@@ -1,0 +1,13 @@
+#ifndef CURRENTCONT_H
+#define CURRENTCONT_H
+
+void currentcont_init(void);
+void set_Igains(float p, float i);
+float get_Ikp(void);
+float get_Iki(void);
+float get_Ieint(void);
+void set_Ieint(float e);
+void set_Iref(float I);
+float get_Iref(void);
+
+#endif
